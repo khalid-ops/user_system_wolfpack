@@ -5,6 +5,7 @@ Instructions for app setup:
 3. Start the server with "python manage.py runserver"
 
 available endpoints:
+
 1. 
 url : http://127.0.0.1:8000/register
 method : POST
@@ -23,7 +24,9 @@ Response : {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-2.
+2.    
+Use the token recieved from above response for login with authentication 
+
 url : http://127.0.0.1:8000/login
 method : POST
 data : {
